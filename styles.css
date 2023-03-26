@@ -49,11 +49,9 @@ nav li:last-child {
 
 nav a {
 	display: inline-block;
-	padding: 0.5rem 1rem;
-}
-
-nav a:hover {
+	font-weight: bold;
 	color: Fuchsia;
+	padding: 0.5rem 1rem;
 }
 
 /* Main content styles */
