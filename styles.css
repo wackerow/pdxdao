@@ -108,6 +108,6 @@ footer a:hover {
 @media only screen and (device-width: 428px) and (device-height: 926px) {
 	header img {
 		margin-top: 3px;
-		display:block;
+		display: block;
 	}
 }
