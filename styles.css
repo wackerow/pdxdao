@@ -33,6 +33,8 @@ header h1 {
 
 header img {
 	margin-top: 3px;
+	height: 100px;
+	width: 100px;
 }
 
 nav ul {
@@ -105,9 +107,11 @@ footer a:hover {
 }
 
 
-@media only screen and (device-width: 428px) and (device-height: 926px) {
+@media only screen and (max-width: 600px) {
 	header img {
-		margin-top: 3px;
+		margin-top: 30px;
+		width: 200px;
+		height: 200px;
 		display: block;
 	}
 }
