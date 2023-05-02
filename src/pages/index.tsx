@@ -74,9 +74,9 @@ const Home: FC = () => (
       <Text
         as="h2"
         textStyle="h2"
-        _after={{
+        _before={{
           content: '"👀"',
-          ms: '0.5em',
+          me: '0.5em',
         }}
       >
         What&apos;s a DAO?
