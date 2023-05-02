@@ -22,7 +22,7 @@ export const NAV_LINKS: NavLink[] = [
   //   href: '#',
   // },
   {
-    name: 'EthPDX Meetup',
+    name: 'EthPDX on Meetup',
     href: 'https://www.meetup.com/ethpdx/',
   },
 ]
