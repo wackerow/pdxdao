@@ -47,9 +47,6 @@ const Home: FC = () => (
         variety of ways, including organizing meetup and educational events, and
         offering web3-related opportunities for local creators. We work together
         collaboratively to produce projects that benefit the community.{' '}
-        {SITE_NAME} is currently comprised of the following working groups:
-        Communication and Design, Tech and Education, and Operations and
-        Treasury.
       </Text>
       <Text>
         <Link href="https://pdxdao-docs.readthedocs.io/en/latest/">

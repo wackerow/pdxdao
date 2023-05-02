@@ -33,7 +33,7 @@ export const Header: FC = () => (
       <Box
         as="a"
         href="#main-content"
-        display={['none',null,'block']}
+        display={['none', null, 'block']}
         pointerEvents="none"
         w="0px"
         opacity={0}

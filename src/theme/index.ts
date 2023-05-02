@@ -32,7 +32,7 @@ const overrides = {
     },
     h1: {
       fontFamily: 'heading',
-      fontWeight: 'bold',
+      fontWeight: 'black',
       color: 'body',
       fontSize: ['6xl', '7xl', '8xl'],
       textAlign: 'center',
