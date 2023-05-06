@@ -33,7 +33,7 @@ export const Footer: FC = () => (
       <Text fontFamily="cursive">
         🪄 Summoned March 2023 on{' '}
         <Link href="https://www.optimism.io/">Optimism</Link> via{' '}
-        <Link href="https://daohaus.club/">DAOHaus</Link>
+        <Link href="https://daohaus.club/">DAOhaus</Link>
       </Text>
       <Text role="img" aria-label="with love">
         🖤
