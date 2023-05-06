@@ -15,7 +15,7 @@ export const NAV_LINKS: NavLink[] = [
   },
   {
     name: 'Documentation',
-    href: 'https://pdxdao-docs.readthedocs.io/en/latest/',
+    href: 'https://pdx-dao.gitbook.io/pdx-dao-docs/',
   },
   // {
   //   name: 'PDX DAO on Mirror.xyz',
