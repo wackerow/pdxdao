@@ -49,7 +49,7 @@ const Home: FC = () => (
         collaboratively to produce projects that benefit the community.{' '}
       </Text>
       <Text>
-        <Link href="https://pdxdao-docs.readthedocs.io/en/latest/">
+        <Link href="https://pdx-dao.gitbook.io/pdx-dao-docs/">
           Read the docs
         </Link>
       </Text>
