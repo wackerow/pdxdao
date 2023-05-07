@@ -21,10 +21,9 @@ const Home: FC = () => (
         <strong>EthPDX—Portland&apos;s Ethereum community</strong>, organized
         via <Link href="https://www.meetup.com/ethpdx/">Meetup.com</Link>. The
         purpose of EthPDX is to support community networking, learning, and
-        building. Anyone can attend an EthPDX event, you don&apos;t need to be a
-        member of the DAO.{' '}
+        building.{' '}
         <strong>
-          The best way to learn more is to attend EthPDX meetups and events.
+          The best way to learn more about PDX DAO is to attend EthPDX meetups and events.
         </strong>{' '}
         There, you&apos;ll be able to ask questions and get a sense of the{' '}
         <Text
