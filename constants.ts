@@ -9,10 +9,10 @@ interface NavLink {
   href: string
 }
 export const NAV_LINKS: NavLink[] = [
-  {
-    name: 'Projects',
-    href: '/projects/',
-  },
+  // {
+  //   name: 'Projects',
+  //   href: '/projects/',
+  // },
   {
     name: 'Documentation',
     href: 'https://pdx-dao.gitbook.io/pdx-dao-docs/',
