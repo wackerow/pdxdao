@@ -18,7 +18,7 @@ const Home: FC = () => (
       </Text>
       <Text>
         {SITE_NAME} plays a working role in supporting{' '}
-        <strong>EthPDX—Portland&apos;s Ethereum community</strong>, organized
+        <strong>EthPDX</strong>—Portland&apos;s Ethereum community, organized
         via <Link href="https://www.meetup.com/ethpdx/">Meetup.com</Link>. The
         purpose of EthPDX is to support community networking, learning, and
         building.{' '}
