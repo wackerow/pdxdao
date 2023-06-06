@@ -44,7 +44,7 @@ const overrides = {
       fontFamily: 'heading',
       fontWeight: 'bold',
       color: 'body',
-      fontSize: '4xl',
+      fontSize: '3xl',
     },
   },
   semanticTokens: {
