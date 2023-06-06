@@ -17,7 +17,7 @@ const Home: FC = () => (
         ecosystem while benefiting our local community.
       </Text>
       <Text>
-        {SITE_NAME} plays a working role in supporting{' '}
+        {SITE_NAME} plays a working role supporting{' '}
         <strong>EthPDX</strong>—Portland&apos;s Ethereum community, organized
         via <Link href="https://www.meetup.com/ethpdx/">Meetup.com</Link>. The
         purpose of EthPDX is to support community networking, learning, and
