@@ -15,6 +15,6 @@ export const TextCardWithIcon: React.FC<IProps> = ({
     <TextCard title={title} fadeColor={fadeColor} flex={4}>
       {children}
     </TextCard>
-    <Icon as={icon} fill={fadeColor} w="full" h="full" maxH={32} flex={1} />
+    <Icon as={icon} fill={fadeColor} stroke="body" strokeWidth={8} w="full" h="full" maxH={32} flex={1} />
   </Flex>
 )

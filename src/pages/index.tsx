@@ -3,8 +3,7 @@ import { Box, Divider, Flex, Icon, Text } from '@chakra-ui/react'
 import { ButtonLink, Link, Page, Section, TextCardWithIcon } from '@/components'
 import { SITE_NAME } from '../../constants'
 import { FaMeetup } from 'react-icons/fa'
-import { TbBrandAo3 } from 'react-icons/tb'
-import { FaRegGrinBeam } from 'react-icons/fa'
+import { FaRegGrinBeam, FaGlobe } from 'react-icons/fa'
 import { GiFlexibleStar } from 'react-icons/gi'
 
 const Home: FC = () => (
@@ -19,14 +18,6 @@ const Home: FC = () => (
         <Link href="https://ethereum.org">Ethereum</Link> and web3 technologies,
         tools and decentralized systems, as a means to promote the Ethereum
         ecosystem while benefiting our local community.
-      </Text>
-    </Section>
-    <Section>
-      <Text>
-        {SITE_NAME} plays a working role supporting <strong>EthPDX</strong>
-        —Portland&apos;s Ethereum community, organized via Meetup.com. The
-        purpose of EthPDX is to support community networking, learning, and
-        building.
       </Text>
     </Section>
     <Section
@@ -84,7 +75,7 @@ const Home: FC = () => (
       <Section maxW="max">
         <TextCardWithIcon
           title="What does PDX DAO do?"
-          fadeColor="#0e0"
+          fadeColor="secondary"
           icon={GiFlexibleStar}
         >
           <Text>
@@ -105,7 +96,7 @@ const Home: FC = () => (
       <Section maxW="max">
         <TextCardWithIcon
           title="Who joins PDX DAO?"
-          fadeColor="#f0f"
+          fadeColor="primary"
           icon={FaRegGrinBeam}
         >
           <Text>
@@ -122,8 +113,8 @@ const Home: FC = () => (
       <Section maxW="max">
         <TextCardWithIcon
           title="What's a DAO?"
-          fadeColor="#0FF"
-          icon={TbBrandAo3}
+          fadeColor="tertiary"
+          icon={FaGlobe}
         >
           <Text>
             A decentralized autonomous organization, or DAO, describes a new way
@@ -139,37 +130,6 @@ const Home: FC = () => (
         </TextCardWithIcon>
       </Section>
     </Flex>
-    <Section
-      my={8}
-      border="2px"
-      p={8}
-      bg="gray.700"
-      color="bg"
-      position="relative"
-      boxShadow="0 4rem 4rem -4rem rgb(0 0 0 / 100%)"
-    >
-      <Text
-        as="h2"
-        textStyle="h2"
-        borderBottom="2px"
-        borderColor="bg"
-        pb={2}
-        mb={4}
-        color="bg"
-      >
-        Join us!
-      </Text>
-      <Text mb={12}>
-        PDX DAO is looking for speakers and attendees to join us in Portland for
-        our General Forum on Ethereum Localism, Friday October 13th - Monday
-        October 16th, 2023.
-      </Text>
-      <Text>
-        <ButtonLink href="https://mirror.xyz/ethpdx.eth/kjpsLAAC2Si0XDmr_aFp0F5esPNH4DoPB4lOTlFbR5M">
-          Learn more
-        </ButtonLink>
-      </Text>
-    </Section>
   </Page>
 )
 

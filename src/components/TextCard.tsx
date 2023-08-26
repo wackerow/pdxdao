@@ -22,7 +22,7 @@ export const TextCard: React.FC<IProps> = ({
         insetInline: 0,
         h: 2,
         bottom: 4,
-        background: `linear-gradient(to right, ${fadeColor}, var(--chakra-colors-bg))`,
+        background: `linear-gradient(to right, var(--chakra-colors-${fadeColor}), var(--chakra-colors-bg))`,
         filter: 'blur(4px) opacity(0.5)',
         zIndex: -1,
       }}

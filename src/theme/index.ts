@@ -69,10 +69,15 @@ const overrides = {
   },
   semanticTokens: {
     colors: {
-      body: 'gray.900', //{ _light: 'black', _dark: 'white' },
-      bg: 'white', //{ _light: 'white', _dark: 'black' },
-      primary: 'blue.300', //{ _light: 'blue.300', _dark: 'blue.900' },
-      link: 'fuchsia', //{ _light: 'fuchsia', _dark: 'fuchsia' },
+      body: 'gray.900',
+      bg: 'white',
+      primary: 'fuchsia',
+      link: 'fuchsia',
+      primaryHover: '#f0f8',
+      secondary: '#0f0',
+      secondaryHover: '#0f08',
+      tertiary: '#0ff',
+      tertiaryHover: '#0ff8',
     },
   },
 }

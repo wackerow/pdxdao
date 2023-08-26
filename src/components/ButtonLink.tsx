@@ -27,8 +27,8 @@ export const ButtonLink: React.FC<IProps> = ({
         px={4}
         py={2}
         m={0}
-        bg="fuchsia"
-        _groupHover={{ bg: '#F4F', boxShadow: '4px 4px 0 0 #F4F8' }}
+        bg="primary"
+        _groupHover={{ bg: 'primary', boxShadow: '4px 4px 0 0 var(--chakra-colors-primaryHover)' }}
         cursor="pointer"
         _after={
           isExternal || hideArrow

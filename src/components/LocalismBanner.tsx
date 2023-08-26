@@ -2,12 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 import { ButtonLink } from '@/components'
 
 export const LocalismBanner = () => (
-  <Flex
-    justify="center"
-    bg="pink.700"
-    color="bg"
-    boxShadow="0 4rem 4rem -4rem rgb(0 0 0 / 100%)"
-  >
+  <Flex justify="center" bg="secondary" boxShadow="lg">
     <Flex
       py={4}
       alignItems="center"
@@ -27,8 +22,8 @@ export const LocalismBanner = () => (
         me={8}
         bg="transparent"
         border="2px"
-        borderColor="bg"
-        color="bg"
+        borderColor="body"
+        color="body"
       >
         Learn more
       </ButtonLink>
