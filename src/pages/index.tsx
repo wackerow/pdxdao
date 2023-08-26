@@ -89,6 +89,19 @@ const Home: FC = () => (
         <Link href="https://ethereum.org/dao/">Learn more about DAOs</Link>
       </Text>
     </Box>
+    <Box as="section" my={8} border="2px" p={8} bg="body" color="bg">
+      <Text as="h2" textStyle="h2" borderBottom="2px" borderColor="bg" pb={2} mb={4} color="bg">
+        Join us!
+      </Text>
+      <Text>
+        PDXDAO is looking for speakers and attendees to join us in Portland for
+        our General Forum on Ethereum Localism, Friday October 13th - Monday
+        October 16th, 2023.
+      </Text>
+      <Text>
+        <Link href="https://mirror.xyz/ethpdx.eth/kjpsLAAC2Si0XDmr_aFp0F5esPNH4DoPB4lOTlFbR5M">Learn more</Link>
+      </Text>
+    </Box>
   </Page>
 )
 
