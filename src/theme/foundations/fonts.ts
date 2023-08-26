@@ -1,4 +1,4 @@
 export const fonts = {
-  // set base fonts as fallback
-  heading: "'system-ui', 'sans-serif'",
+  heading: "'Nostalgic Remain', 'sans-serif'",
+  body: "'TASA Explorer', sans-serif",
 }
