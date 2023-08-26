@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { Box, Flex, Text, UnorderedList, ListItem } from '@chakra-ui/react'
 import NextImage from 'next/image'
-import { Link, MobileMenu } from './'
+import { Link, LocalismBanner, MobileMenu } from '@/components'
 import { NAV_LINKS } from '../../constants'
 
 export const Header: FC = () => (
@@ -64,5 +64,6 @@ export const Header: FC = () => (
 
       <MobileMenu />
     </Flex>
+    <LocalismBanner />
   </Box>
 )
