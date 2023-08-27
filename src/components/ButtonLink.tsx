@@ -34,7 +34,7 @@ export const ButtonLink: React.FC<IProps> = ({
           isExternal || hideArrow
             ? {}
             : {
-                content: '"↗"',
+                content: '"↗\uFE0E"',
                 ms: '1',
                 display: 'inline-block',
                 fontFamily: 'heading',
