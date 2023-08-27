@@ -16,7 +16,7 @@ export const Link: FC<IProps> = ({ href, hideArrow, ...restProps }) => {
         hideArrow || !isExternal
           ? {}
           : {
-              content: '"↗"',
+              content: '"↗\uFE0E"',
               ms: '1',
               display: 'inline-block',
               fontFamily: 'heading',
